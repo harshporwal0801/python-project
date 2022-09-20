@@ -19,6 +19,6 @@ if not os.path.isdir("qr_images"):
     os.mkdir("qr_images")
 
 img = qr.make_image(fill_color="black", back_color="white")
-img.save("qr_images/url_qrcode.png")
+img.save("qr_images/url_qrcode1.png")
 
 print(qr.data_list)
