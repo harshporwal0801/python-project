@@ -1,0 +1,14 @@
+2022-09-21 18:24:49,757 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-09-21 18:24:49,758 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python310\lib\site-packages\instabot\bot\bot.py
+2022-09-21 18:24:49,759 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-09-21 18:24:50,203 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-09-21 18:24:50,624 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-09-21 18:24:50,985 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-09-21 18:24:51,354 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-09-21 18:24:53,077 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-09-21 18:24:53,078 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"status":"fail","error_type":"bad_password"}'
+2022-09-21 18:24:53,078 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-09-21 18:24:53,079 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2022-09-21 18:24:53,079 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2022-09-21 18:24:53,080 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2022-09-21 18:24:53,081 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
